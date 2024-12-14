@@ -13,8 +13,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //数据源和写入文件
-    NSString *specialurl = @"";
-    NSString *commUrl = @"";
+    NSString *specialurl = @"http://1.getchhospital.sinaapp.com/getspecial";
+    NSString *commUrl = @"http://1.getchhospital.sinaapp.com/getcommon";
     NSString *specialfile = @"specialClinic.plist";
     NSString *commfile = @"commClinic.plist";
     
